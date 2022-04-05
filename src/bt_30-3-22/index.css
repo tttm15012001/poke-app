@@ -1,0 +1,87 @@
+#root {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    margin: 0 auto;
+}
+
+.search {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+#wrapper .poke-list {
+    clear: both;
+    width: 80%;
+    margin: auto;
+}
+
+.card, .detail {
+    float: left;
+    width: 21%;
+    height: fit-content;
+    padding: 10px 0px;
+    margin: 2% 2%;
+    text-align: center;
+    box-shadow: 3px 2px 5px gray;
+}
+
+.card .img {
+    width: 80%;
+    height: fit-content;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card button {
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    margin: auto;
+    background-color: orange;
+    color: black;
+    margin-top: 10px;
+}
+
+.card .p {
+    color: gray;
+}
+
+.detail {
+    width: 25%;
+    height: fit-content;
+    margin: auto;
+}
+
+.detail img {
+    height: 250px;
+    width: auto;
+    object-fit: cover;
+}
+
+.card .link {
+    margin: auto;
+    margin-top: 15px;
+    width: fit-content;
+    height: fit-content;
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.but {
+    margin: auto;
+    text-align: center;
+    clear: both;
+}
